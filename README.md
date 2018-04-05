@@ -20,4 +20,4 @@
 * WebApplication coming soon
 
 ## Licensing
-*SSevenShake_ios* is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/oakahn/SevenShake_ios/blob/dev/LICENSE.txt) for the full license text.
+*SevenShake_ios* is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/oakahn/SevenShake_ios/blob/dev/LICENSE.txt) for the full license text.

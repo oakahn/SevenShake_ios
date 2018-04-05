@@ -1,4 +1,5 @@
 # SevenShake_ios
+  <img src="https://github.com/oakahn/SevenShake_ios/blob/dev/7-11.png">
   This project it use for train skill.
 
 # PURPOSE

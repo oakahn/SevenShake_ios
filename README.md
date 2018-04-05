@@ -2,7 +2,7 @@
 <p align="center">
    <img src="https://github.com/oakahn/SevenShake_ios/blob/dev/7-11.png">
 </p>
-  This project it use for train skill.
+ <h3 align="center">This project it use for train skill.</h3>
 
 
 # PURPOSE

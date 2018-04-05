@@ -1,8 +1,9 @@
 # SevenShake_ios
 <p align="center">
    <img src="https://github.com/oakahn/SevenShake_ios/blob/dev/7-11.png">
-  This project it use for train skill.
 </p>
+  This project it use for train skill.
+
 
 # PURPOSE
   Use Application to random Item in 7-11 Store to buy.

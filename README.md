@@ -13,3 +13,9 @@
   
 # Example UI
   <img src="https://github.com/oakahn/SevenShake_ios/blob/dev/Screen%20Shot%202561-04-05%20at%2010.15.15.png" width="350">
+  
+## Version on operating systems
+* [Android](https://github.com/Todsphol/SevenShake-Android)
+* [Iphone](https://github.com/oakahn/SevenShake_ios/tree/dev)
+* WebApplication coming soon
+

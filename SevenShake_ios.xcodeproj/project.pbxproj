@@ -64,15 +64,23 @@
 		9C200411207281D800AD7426 /* SevenShake_ios */ = {
 			isa = PBXGroup;
 			children = (
+				F59066B72075C4A700DFF286 /* VC */,
 				9C1FA62E207520D200B09C99 /* Style */,
 				9C200412207281D800AD7426 /* AppDelegate.swift */,
-				9C200414207281D800AD7426 /* ViewController.swift */,
 				9C200416207281D800AD7426 /* Main.storyboard */,
 				9C200419207281D800AD7426 /* Assets.xcassets */,
 				9C20041B207281D800AD7426 /* LaunchScreen.storyboard */,
 				9C20041E207281D800AD7426 /* Info.plist */,
 			);
 			path = SevenShake_ios;
+			sourceTree = "<group>";
+		};
+		F59066B72075C4A700DFF286 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9C200414207281D800AD7426 /* ViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

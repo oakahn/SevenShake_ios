@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1FA6302075210B00B09C99 /* StyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FA62F2075210B00B09C99 /* StyleButton.swift */; };
 		9C200413207281D800AD7426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C200412207281D800AD7426 /* AppDelegate.swift */; };
 		9C200415207281D800AD7426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C200414207281D800AD7426 /* ViewController.swift */; };
 		9C200418207281D800AD7426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C200416207281D800AD7426 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C1FA62F2075210B00B09C99 /* StyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleButton.swift; sourceTree = "<group>"; };
 		9C20040F207281D800AD7426 /* SevenShake_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenShake_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C200412207281D800AD7426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C200414207281D800AD7426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C1FA62E207520D200B09C99 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				9C1FA62F2075210B00B09C99 /* StyleButton.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		9C200406207281D800AD7426 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		9C200411207281D800AD7426 /* SevenShake_ios */ = {
 			isa = PBXGroup;
 			children = (
+				9C1FA62E207520D200B09C99 /* Style */,
 				9C200412207281D800AD7426 /* AppDelegate.swift */,
 				9C200414207281D800AD7426 /* ViewController.swift */,
 				9C200416207281D800AD7426 /* Main.storyboard */,
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C200415207281D800AD7426 /* ViewController.swift in Sources */,
+				9C1FA6302075210B00B09C99 /* StyleButton.swift in Sources */,
 				9C200413207281D800AD7426 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

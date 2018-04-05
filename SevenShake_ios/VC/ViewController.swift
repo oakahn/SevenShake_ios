@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var itemPic: UIImageView!
-    
+    @IBOutlet weak var randomLabel: UILabel!
     @IBOutlet weak var button: StyleButton!
     var imageCollector = [UIImage]()
     

@@ -40,10 +40,18 @@
                                     <constraint firstAttribute="height" constant="261" id="hWm-hQ-QIt"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ramdom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Jm-TV-8aw">
+                                <rect key="frame" x="133.5" y="367.5" width="108.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="MvV-La-ZPe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="5iB-sW-80f"/>
+                            <constraint firstItem="9Jm-TV-8aw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.15" id="97u-4X-UGu"/>
+                            <constraint firstItem="9Jm-TV-8aw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HbO-NM-swf"/>
                             <constraint firstItem="MvV-La-ZPe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kud-Cg-2aZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MvV-La-ZPe" secondAttribute="trailing" constant="50" id="OV8-Hp-7dJ"/>
                             <constraint firstItem="drR-yB-qWB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="X8N-VF-Am4"/>
@@ -57,6 +65,7 @@
                     <connections>
                         <outlet property="button" destination="MvV-La-ZPe" id="tKw-m2-ORb"/>
                         <outlet property="itemPic" destination="drR-yB-qWB" id="jio-mT-oyX"/>
+                        <outlet property="randomLabel" destination="9Jm-TV-8aw" id="kEQ-he-QSb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

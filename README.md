@@ -1,4 +1,4 @@
-# SevenShake_ios
+<h1 align="center"> SevenShake_ios</h1>
 <p align="center">
    <img src="https://github.com/oakahn/SevenShake_ios/blob/dev/7-11.png">
 </p>

@@ -25,6 +25,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="fbb-71-G5Q"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="Random">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -33,7 +34,7 @@
                                     <action selector="touchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pUr-Nm-0hd"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="drR-yB-qWB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="random" translatesAutoresizingMaskIntoConstraints="NO" id="drR-yB-qWB">
                                 <rect key="frame" x="40" y="104" width="295" height="261"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="261" id="hWm-hQ-QIt"/>
@@ -59,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="479.19999999999999" y="132.68365817091455"/>
+            <point key="canvasLocation" x="745" y="250"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zyy-AA-MKt">
@@ -107,4 +108,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="random" width="300" height="300"/>
+    </resources>
 </document>
